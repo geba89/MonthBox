@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0292C3829177DC29BE3B1957 /* ExpenseRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B07D88C98E46191D0F2D75C /* ExpenseRowView.swift */; };
+		07290981CF4FE262ACD923D4 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DEC1022F0972DF686B9513 /* Date+Extensions.swift */; };
+		209D9CB5FDD808A9D1A693E9 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ACBE8726A55EB95ACF87F9 /* DashboardView.swift */; };
+		3413CFD36A36E8B6E2C0B9F0 /* ExpenseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C38A961B1CC2137B4F42575 /* ExpenseListView.swift */; };
+		4932702BFD1E83FF6DA31F24 /* MonthBoxWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985261D6B9BCFA5C433FFD93 /* MonthBoxWidget.swift */; };
+		51B3E221A50905092638BE5D /* AddIncomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CFE6AA09941843D834B5BB /* AddIncomeView.swift */; };
+		51BF6D5DCAD6E3AE8983B6B8 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC667FA39A27E6B26B862341 /* Expense.swift */; };
+		5CACEC81EC3C43DA62BB3A58 /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AA5FD177876146FD9F57B8 /* Double+Extensions.swift */; };
+		6090FF0FC705F70FA31C08ED /* MonthBoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8944F81669BCAA241739FFBB /* MonthBoxApp.swift */; };
+		6216E5F23A94EB9DB5818420 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC20C81FB228D192F14A0C6A /* UserSettings.swift */; };
+		712B25EA9B087EEA0502D87A /* AddExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F45691403C50357B3F88D1D /* AddExpenseView.swift */; };
+		732F7156BE08B91F2C72F3CA /* EditIncomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670C0386165482251D2D6612 /* EditIncomeView.swift */; };
+		8123EA08149325B9639EDD78 /* Income.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDD19E6711CBA816D974B42 /* Income.swift */; };
+		8EF0182CD92C399AA3DF182A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F79CDED3DE95016E5DD7651 /* SettingsView.swift */; };
+		99CF9E046AE6A5442FC0F350 /* IncomeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF20E2428E19AA0455343A41 /* IncomeListView.swift */; };
+		AEACC802EC45EF60672731FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3942AA30773024E97E717A /* Assets.xcassets */; };
+		C071C5EA526E84AA5B951FF8 /* EditExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA0E446E68CD37BEC420D2 /* EditExpenseView.swift */; };
+		C7FDC0F81D6A9840BCB5AFC2 /* MonthBoxWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 70BCF34DDCEECA288EDACDC7 /* MonthBoxWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D2A3215C9BEFC6FAB90545AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF0324367CA8EF70CC88855 /* ContentView.swift */; };
+		D5EC424E4D4FFDD2AD13D9B0 /* FixedExpenseTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2510F41B9240DCB9C917E3 /* FixedExpenseTemplate.swift */; };
+		D796B4A11DF5942F58DC471E /* MonthBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C2AEB40FEA172A84C74AF5 /* MonthBoxTests.swift */; };
+		DDDCA4586992729080286B2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25522762F7209E34E2E54369 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45939E051E3C5A7F6C7D1EB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28A5ECAD8ED6344E5C7E7201 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0800596F0C633765F56D227;
+			remoteInfo = MonthBoxWidgetExtension;
+		};
+		6F7E82528A32F59840C80B7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28A5ECAD8ED6344E5C7E7201 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A9DF73DCB084FE1BDBC8661;
+			remoteInfo = MonthBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8FDC565249660102DE7E0134 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C7FDC0F81D6A9840BCB5AFC2 /* MonthBoxWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		12DEC1022F0972DF686B9513 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		25522762F7209E34E2E54369 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B07D88C98E46191D0F2D75C /* ExpenseRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseRowView.swift; sourceTree = "<group>"; };
+		38AA5FD177876146FD9F57B8 /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
+		4A0E402ED9083BD40E51DDF1 /* MonthBox.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MonthBox.entitlements; sourceTree = "<group>"; };
+		4FDD19E6711CBA816D974B42 /* Income.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Income.swift; sourceTree = "<group>"; };
+		52ACBE8726A55EB95ACF87F9 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		670C0386165482251D2D6612 /* EditIncomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditIncomeView.swift; sourceTree = "<group>"; };
+		6C38A961B1CC2137B4F42575 /* ExpenseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseListView.swift; sourceTree = "<group>"; };
+		70BCF34DDCEECA288EDACDC7 /* MonthBoxWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MonthBoxWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F45691403C50357B3F88D1D /* AddExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseView.swift; sourceTree = "<group>"; };
+		8944F81669BCAA241739FFBB /* MonthBoxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthBoxApp.swift; sourceTree = "<group>"; };
+		8F79CDED3DE95016E5DD7651 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		985261D6B9BCFA5C433FFD93 /* MonthBoxWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthBoxWidget.swift; sourceTree = "<group>"; };
+		9FCA0E446E68CD37BEC420D2 /* EditExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditExpenseView.swift; sourceTree = "<group>"; };
+		AC667FA39A27E6B26B862341 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		B3EA0790C0E2438D17559188 /* MonthBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonthBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7C2AEB40FEA172A84C74AF5 /* MonthBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthBoxTests.swift; sourceTree = "<group>"; };
+		BC20C81FB228D192F14A0C6A /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		CCB6C4067008970928E2ADF0 /* MonthBoxWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MonthBoxWidgetExtension.entitlements; sourceTree = "<group>"; };
+		CE3942AA30773024E97E717A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF20E2428E19AA0455343A41 /* IncomeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeListView.swift; sourceTree = "<group>"; };
+		CFDA1A8B12CF3B3E678B15E1 /* MonthBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonthBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2510F41B9240DCB9C917E3 /* FixedExpenseTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedExpenseTemplate.swift; sourceTree = "<group>"; };
+		E0CFE6AA09941843D834B5BB /* AddIncomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIncomeView.swift; sourceTree = "<group>"; };
+		EBF0324367CA8EF70CC88855 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		08E378164ADC4D87782F3A41 /* MonthBox */ = {
+			isa = PBXGroup;
+			children = (
+				4A0E402ED9083BD40E51DDF1 /* MonthBox.entitlements */,
+				3EC4017A5D046DF6B643A52A /* App */,
+				13BA646CB81BB0F950CF47F5 /* Extensions */,
+				EA9672C5F1EAA25717ACB98F /* Models */,
+				F6033DF6A2438141308B3FFB /* Resources */,
+				CE44E7F492BD1EE76D288060 /* ViewModels */,
+				345422C3FAF5694DA86EB023 /* Views */,
+			);
+			path = MonthBox;
+			sourceTree = "<group>";
+		};
+		099502E25C4F56F8363849A6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0AE964B66A3B28D7D7B98110 /* MonthBoxWidget */ = {
+			isa = PBXGroup;
+			children = (
+				25522762F7209E34E2E54369 /* Assets.xcassets */,
+				985261D6B9BCFA5C433FFD93 /* MonthBoxWidget.swift */,
+				CCB6C4067008970928E2ADF0 /* MonthBoxWidgetExtension.entitlements */,
+			);
+			path = MonthBoxWidget;
+			sourceTree = "<group>";
+		};
+		0F2D910C89054AD62F49934F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3EA0790C0E2438D17559188 /* MonthBox.app */,
+				CFDA1A8B12CF3B3E678B15E1 /* MonthBoxTests.xctest */,
+				70BCF34DDCEECA288EDACDC7 /* MonthBoxWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13BA646CB81BB0F950CF47F5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				12DEC1022F0972DF686B9513 /* Date+Extensions.swift */,
+				38AA5FD177876146FD9F57B8 /* Double+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2786D4943D8C9D2BDD388043 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				52ACBE8726A55EB95ACF87F9 /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		345422C3FAF5694DA86EB023 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				099502E25C4F56F8363849A6 /* Components */,
+				2786D4943D8C9D2BDD388043 /* Dashboard */,
+				B0CC8567D9EDC42C7534B5EB /* Expenses */,
+				7EC83C24164FDBFADA85487B /* Income */,
+				FC02E7F26A821973BD109404 /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3AE9ACD91406C4E837AD11AE /* MonthBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7C2AEB40FEA172A84C74AF5 /* MonthBoxTests.swift */,
+			);
+			path = MonthBoxTests;
+			sourceTree = "<group>";
+		};
+		3EC4017A5D046DF6B643A52A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EBF0324367CA8EF70CC88855 /* ContentView.swift */,
+				8944F81669BCAA241739FFBB /* MonthBoxApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7EC83C24164FDBFADA85487B /* Income */ = {
+			isa = PBXGroup;
+			children = (
+				E0CFE6AA09941843D834B5BB /* AddIncomeView.swift */,
+				670C0386165482251D2D6612 /* EditIncomeView.swift */,
+				CF20E2428E19AA0455343A41 /* IncomeListView.swift */,
+			);
+			path = Income;
+			sourceTree = "<group>";
+		};
+		A0C24DAFDDCAAC135BFA98BB = {
+			isa = PBXGroup;
+			children = (
+				08E378164ADC4D87782F3A41 /* MonthBox */,
+				3AE9ACD91406C4E837AD11AE /* MonthBoxTests */,
+				0AE964B66A3B28D7D7B98110 /* MonthBoxWidget */,
+				0F2D910C89054AD62F49934F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0CC8567D9EDC42C7534B5EB /* Expenses */ = {
+			isa = PBXGroup;
+			children = (
+				7F45691403C50357B3F88D1D /* AddExpenseView.swift */,
+				9FCA0E446E68CD37BEC420D2 /* EditExpenseView.swift */,
+				6C38A961B1CC2137B4F42575 /* ExpenseListView.swift */,
+				2B07D88C98E46191D0F2D75C /* ExpenseRowView.swift */,
+			);
+			path = Expenses;
+			sourceTree = "<group>";
+		};
+		CE44E7F492BD1EE76D288060 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EA9672C5F1EAA25717ACB98F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AC667FA39A27E6B26B862341 /* Expense.swift */,
+				DB2510F41B9240DCB9C917E3 /* FixedExpenseTemplate.swift */,
+				4FDD19E6711CBA816D974B42 /* Income.swift */,
+				BC20C81FB228D192F14A0C6A /* UserSettings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F6033DF6A2438141308B3FFB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE3942AA30773024E97E717A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FC02E7F26A821973BD109404 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				8F79CDED3DE95016E5DD7651 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		882EDD690E22507C35556D00 /* MonthBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2656FA66FEE4FAF34087218 /* Build configuration list for PBXNativeTarget "MonthBoxTests" */;
+			buildPhases = (
+				476A9093E296252E284071F8 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA5948322931D8C55E35445C /* PBXTargetDependency */,
+			);
+			name = MonthBoxTests;
+			packageProductDependencies = (
+			);
+			productName = MonthBoxTests;
+			productReference = CFDA1A8B12CF3B3E678B15E1 /* MonthBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A9DF73DCB084FE1BDBC8661 /* MonthBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C88EE99433F015A43F232375 /* Build configuration list for PBXNativeTarget "MonthBox" */;
+			buildPhases = (
+				0D2693E2AAE4E4EF73E96517 /* Sources */,
+				E718C9A60F8D4D783B488310 /* Resources */,
+				8FDC565249660102DE7E0134 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8DAE5F67338B9B2DE799A3D /* PBXTargetDependency */,
+			);
+			name = MonthBox;
+			packageProductDependencies = (
+			);
+			productName = MonthBox;
+			productReference = B3EA0790C0E2438D17559188 /* MonthBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0800596F0C633765F56D227 /* MonthBoxWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA5BCC3546D372C05C6EC7C /* Build configuration list for PBXNativeTarget "MonthBoxWidgetExtension" */;
+			buildPhases = (
+				9D4416A88DB214B0CA25EF3D /* Sources */,
+				CB12D2D1C8A76338A2C91595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonthBoxWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = MonthBoxWidgetExtension;
+			productReference = 70BCF34DDCEECA288EDACDC7 /* MonthBoxWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28A5ECAD8ED6344E5C7E7201 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					882EDD690E22507C35556D00 = {
+						DevelopmentTeam = 8NKQAWBSBB;
+						ProvisioningStyle = Automatic;
+					};
+					9A9DF73DCB084FE1BDBC8661 = {
+						DevelopmentTeam = 8NKQAWBSBB;
+						ProvisioningStyle = Automatic;
+					};
+					F0800596F0C633765F56D227 = {
+						DevelopmentTeam = 8NKQAWBSBB;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2C3EE25A2C0C1E717861EB79 /* Build configuration list for PBXProject "MonthBox" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = A0C24DAFDDCAAC135BFA98BB;
+			minimizedProjectReferenceProxies = 1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A9DF73DCB084FE1BDBC8661 /* MonthBox */,
+				882EDD690E22507C35556D00 /* MonthBoxTests */,
+				F0800596F0C633765F56D227 /* MonthBoxWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB12D2D1C8A76338A2C91595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDCA4586992729080286B2F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E718C9A60F8D4D783B488310 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEACC802EC45EF60672731FD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D2693E2AAE4E4EF73E96517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				712B25EA9B087EEA0502D87A /* AddExpenseView.swift in Sources */,
+				51B3E221A50905092638BE5D /* AddIncomeView.swift in Sources */,
+				D2A3215C9BEFC6FAB90545AA /* ContentView.swift in Sources */,
+				209D9CB5FDD808A9D1A693E9 /* DashboardView.swift in Sources */,
+				07290981CF4FE262ACD923D4 /* Date+Extensions.swift in Sources */,
+				5CACEC81EC3C43DA62BB3A58 /* Double+Extensions.swift in Sources */,
+				C071C5EA526E84AA5B951FF8 /* EditExpenseView.swift in Sources */,
+				732F7156BE08B91F2C72F3CA /* EditIncomeView.swift in Sources */,
+				51BF6D5DCAD6E3AE8983B6B8 /* Expense.swift in Sources */,
+				3413CFD36A36E8B6E2C0B9F0 /* ExpenseListView.swift in Sources */,
+				0292C3829177DC29BE3B1957 /* ExpenseRowView.swift in Sources */,
+				D5EC424E4D4FFDD2AD13D9B0 /* FixedExpenseTemplate.swift in Sources */,
+				8123EA08149325B9639EDD78 /* Income.swift in Sources */,
+				99CF9E046AE6A5442FC0F350 /* IncomeListView.swift in Sources */,
+				6090FF0FC705F70FA31C08ED /* MonthBoxApp.swift in Sources */,
+				8EF0182CD92C399AA3DF182A /* SettingsView.swift in Sources */,
+				6216E5F23A94EB9DB5818420 /* UserSettings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476A9093E296252E284071F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D796B4A11DF5942F58DC471E /* MonthBoxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D4416A88DB214B0CA25EF3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4932702BFD1E83FF6DA31F24 /* MonthBoxWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8DAE5F67338B9B2DE799A3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0800596F0C633765F56D227 /* MonthBoxWidgetExtension */;
+			targetProxy = 45939E051E3C5A7F6C7D1EB7 /* PBXContainerItemProxy */;
+		};
+		CA5948322931D8C55E35445C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A9DF73DCB084FE1BDBC8661 /* MonthBox */;
+			targetProxy = 6F7E82528A32F59840C80B7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2A0B91912567B37F4F7F2581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monthbox.app.tests;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonthBox.app/MonthBox";
+			};
+			name = Debug;
+		};
+		54FC9D17C120DC7C79FB99B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MonthBox/MonthBox.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_GENERATION_MODE = GeneratedFile;
+				INFOPLIST_KEY_CFBundleDisplayName = MonthBox;
+				INFOPLIST_KEY_CFBundleIconName = AppIcon;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monthbox.app;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63606CEA1A37073BD7A941FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = MonthBoxWidget/MonthBoxWidgetExtension.entitlements;
+				INFOPLIST_FILE = MonthBoxWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monthbox.app.widget;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		91FDFC79337F9E2F5D34E994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = MonthBoxWidget/MonthBoxWidgetExtension.entitlements;
+				INFOPLIST_FILE = MonthBoxWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monthbox.app.widget;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D399FBBE3097645302654636 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8NKQAWBSBB;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DA15D79747571265A95653A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monthbox.app.tests;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonthBox.app/MonthBox";
+			};
+			name = Release;
+		};
+		E2C719D7CE911A028F0F60CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8NKQAWBSBB;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EDD4E1EFA55D0CF7B1AEE9DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MonthBox/MonthBox.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_GENERATION_MODE = GeneratedFile;
+				INFOPLIST_KEY_CFBundleDisplayName = MonthBox;
+				INFOPLIST_KEY_CFBundleIconName = AppIcon;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monthbox.app;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C3EE25A2C0C1E717861EB79 /* Build configuration list for PBXProject "MonthBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D399FBBE3097645302654636 /* Debug */,
+				E2C719D7CE911A028F0F60CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C88EE99433F015A43F232375 /* Build configuration list for PBXNativeTarget "MonthBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54FC9D17C120DC7C79FB99B5 /* Debug */,
+				EDD4E1EFA55D0CF7B1AEE9DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CCA5BCC3546D372C05C6EC7C /* Build configuration list for PBXNativeTarget "MonthBoxWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FDFC79337F9E2F5D34E994 /* Debug */,
+				63606CEA1A37073BD7A941FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D2656FA66FEE4FAF34087218 /* Build configuration list for PBXNativeTarget "MonthBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A0B91912567B37F4F7F2581 /* Debug */,
+				DA15D79747571265A95653A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28A5ECAD8ED6344E5C7E7201 /* Project object */;
+}

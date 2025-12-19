@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - MonthBox</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.7;
+            color: #333;
+            background: #f5f5f7;
+        }
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 40px 20px;
+            text-align: center;
+            color: white;
+        }
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 5px;
+        }
+        header p {
+            opacity: 0.9;
+        }
+        nav {
+            background: rgba(255,255,255,0.1);
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            opacity: 0.9;
+        }
+        nav a:hover {
+            opacity: 1;
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+        .faq-item {
+            border-bottom: 1px solid #eee;
+            padding: 25px 0;
+        }
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+        .faq-item:first-child {
+            padding-top: 0;
+        }
+        .question {
+            font-weight: 600;
+            color: #333;
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+        }
+        .question::before {
+            content: "Q";
+            background: #667eea;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8rem;
+            flex-shrink: 0;
+        }
+        .answer {
+            color: #555;
+            padding-left: 34px;
+        }
+        .answer a {
+            color: #667eea;
+        }
+        .category {
+            font-size: 0.85rem;
+            color: #667eea;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 40px 0 20px 0;
+            font-weight: 600;
+        }
+        .category:first-of-type {
+            margin-top: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MonthBox</h1>
+        <p>Frequently Asked Questions</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="faq.html">FAQ</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="support.html">Support</a>
+    </nav>
+
+    <div class="container">
+        <div class="card">
+
+            <p class="category">General</p>
+
+            <div class="faq-item">
+                <div class="question">What is MonthBox?</div>
+                <div class="answer">MonthBox is a simple monthly budget tracker for iPhone. Add your income, track your expenses, mark bills as paid, and see how much money you have left. That's it. No complicated features, no learning curve.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="question">Do I need to link my bank account?</div>
+                <div class="answer">No. MonthBox is completely manual. You add your income and expenses yourself. We never ask for your bank credentials and have no way to access your accounts. This is by design for your privacy.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="question">Does it work offline?</div>
+                <div class="answer">Yes, completely. MonthBox requires no internet connection to work. All your data is stored locally on your device.</div>
+            </div>
+
+            <p class="category">Privacy & Data</p>
+
+            <div class="faq-item">
+                <div class="question">Where is my data stored?</div>
+                <div class="answer">All your data is stored locally on your iPhone. We don't have servers, and your financial information never leaves your device (unless you use iCloud backup, which is handled by Apple).</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="question">Can I sync across devices?</div>
+                <div class="answer">If you enable iCloud in your iOS settings, your data will automatically sync across your Apple devices. This sync is encrypted and handled entirely by Apple we never see your data.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="question">Can I export my data?</div>
+                <div class="answer">Yes, you can export your budget data to CSV format. This feature allows you to keep backups or analyze your spending in other apps.</div>
+            </div>
+
+            <p class="category">Pricing</p>
+
+            <div class="faq-item">
+                <div class="question">Is there a subscription?</div>
+                <div class="answer">No. MonthBox is a one-time purchase. Pay once, use forever. No recurring charges, no "premium" upgrades required for basic features.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="question">Why isn't it free?</div>
+                <div class="answer">Free apps typically make money through ads or by selling your data. MonthBox has no ads and collects no data. The one-time purchase keeps the app sustainable without compromising your privacy.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="question">Is there a free trial?</div>
+                <div class="answer">MonthBox offers a free trial period so you can experience the full app before purchasing. Try it for a complete budget cycle to see if it works for you.</div>
+            </div>
+
+            <p class="category">Features</p>
+
+            <div class="faq-item">
+                <div class="question">How do recurring expenses work?</div>
+                <div class="answer">When you add an expense and mark it as "Fixed Monthly Bill," it will automatically appear in future months. Each month starts with the expense unpaid, ready for you to mark as paid when you pay it.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="question">What's the home screen widget?</div>
+                <div class="answer">The widget shows your remaining budget right on your iPhone's home screen. You can see at a glance how much you have left to spend without opening the app.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="question">Can I track multiple currencies?</div>
+                <div class="answer">MonthBox supports multiple currencies. You can choose your preferred currency in Settings. However, each budget uses a single currency.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="question">What about iPad or Mac support?</div>
+                <div class="answer">MonthBox is currently iPhone-only. iPad and Mac versions may come in future updates based on user demand.</div>
+            </div>
+
+            <p class="category">Troubleshooting</p>
+
+            <div class="faq-item">
+                <div class="question">My recurring expenses aren't showing up in the new month</div>
+                <div class="answer">Make sure your expenses are marked as "Fixed Monthly Bill" when you create them. Also, try navigating away from the month and back to trigger the auto-population.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="question">I accidentally deleted an expense. Can I recover it?</div>
+                <div class="answer">Unfortunately, deleted expenses cannot be recovered as all data is stored locally. If you have iCloud backup enabled, you may be able to restore from a previous backup.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="question">Will you add [complex feature]?</div>
+                <div class="answer">Probably not. MonthBox is intentionally simple. We focus on doing one thing well: helping you track monthly expenses. We won't add bank linking, investment tracking, or AI predictions. That's the whole point.</div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>Still have questions? <a href="support.html" style="color: #667eea;">Contact Support</a></p>
+        <p style="margin-top: 10px;">&copy; 2024 MonthBox</p>
+    </footer>
+</body>
+</html>
